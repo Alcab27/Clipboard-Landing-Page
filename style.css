@@ -1,0 +1,12 @@
+:root{
+  /* Primary */
+  --Strong-Cyan: #26baa4;
+  --Light-Blue: #6173ff;
+  /* Neutral */
+  --Dark-Grayish-Blue: #4c545d;
+  --Grayis-Blue: #9fabb2;
+}
+*{
+  font-size: 62.5%;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
