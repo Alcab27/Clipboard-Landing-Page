@@ -40,6 +40,7 @@ p{
   align-items: center;
   background-image: url(./images/bg-header-mobile.png);
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .first-section{
   display: flex;
@@ -55,11 +56,13 @@ p{
 .first-section h1{
   text-align: center;
   color: var(--Dark-Grayish-Blue);
+  padding: 0 24px;
 }
 .first-section p{
   font-size: 1.6rem;
   text-align: center;
   color: var(--Grayis-Blue);
+  padding: 0 24px;
 }
 .first-section-buttons{
   display: flex;
@@ -222,6 +225,11 @@ p{
   margin-bottom: 20px;
   color: var(--Dark-Grayish-Blue);
   font-weight: bold;
+  font-size: 2.2rem;
+}
+.first-colummn a, .second-colummn a, .third-colummn a{
+  text-decoration: none;
+  color: var(--Dark-Grayish-Blue);
 }
 .social-networks{
   display: flex;
