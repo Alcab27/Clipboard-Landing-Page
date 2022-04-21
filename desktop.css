@@ -10,6 +10,9 @@ h3{
 p{
   font-size: 1.8rem;
 }
+.main-content{
+  background-image:url(./images/bg-header-desktop.png)
+}
 .first-section p{
   padding: 0 320px;
 }
@@ -21,4 +24,90 @@ p{
 }
 .first-section-buttons button:nth-child(1){
   margin-right: 20px;
+}
+.second-section p{
+  padding: 0 280px;
+  margin-bottom: 40px;
+}
+.second-section-about{
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mac-image img{
+  width: 600px;
+  margin-left: -58px;
+  margin-bottom: 0;
+}
+.info-snippets{
+  margin-left: 100px;
+}
+.paragraph h3{
+  text-align: left;
+  padding: 0;
+}
+.paragraph p{
+  padding: 0 200px 0 0;
+  text-align: left;
+}
+.third-section p{
+  padding: 0 280px;
+  margin-bottom: 60px;
+}
+.third-section img{
+  width: 600px;
+}
+.fourth-section{
+  margin-bottom: 100px;
+}
+.options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.op{
+  width: 380px;
+}
+.create{
+  margin-bottom: 32px;
+}
+.logos{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fifth-section p{
+  padding: 0 300px;
+}
+.fifth-section-buttons{
+  flex-direction: row;
+  margin-top: 20px;
+}
+.fifth-section-buttons button{
+  width: 200px;
+  height: 40px;
+}
+.fifth-section-buttons button:nth-child(1){
+  margin-right: 20px;
+}
+.footer{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 80px;
+  padding-top: 30px;
+  height: 80px;
+}
+.logo-footer img{
+  width: 50px;
+  margin-bottom: 0;
+}
+.first-colummn p, .second-colummn p, .third-colummn p{
+  text-align: left;
+  margin-bottom: 0;
+}
+.social-networks{
+  margin: 0;
+  margin-top: 20px;
+}
+.social-networks a svg{
+  width: 20px;
 }
