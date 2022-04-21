@@ -90,6 +90,13 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
+}
+.second-section-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .second-section h2, .second-section h3{
   text-align: center;
