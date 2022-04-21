@@ -2,6 +2,8 @@
   /* Primary */
   --Strong-Cyan: #26baa4;
   --Light-Blue: #6173ff;
+  --Strong-Cyan-light: #69c9bb;
+  --Light-Blue-light: #8694fe;
   /* Neutral */
   --Dark-Grayish-Blue: #4c545d;
   --Grayis-Blue: #9fabb2;
@@ -83,8 +85,14 @@ p{
 .first-section-buttons button:nth-child(1){
   background-color: var(--Strong-Cyan);
 }
+.first-section-buttons button:nth-child(1):hover{
+  background-color: var(--Strong-Cyan-light);
+}
 .first-section-buttons button:nth-child(2){
   background-color: var(--Light-Blue);
+}
+.first-section-buttons button:nth-child(2):hover{
+  background-color: var(--Light-Blue-light);
 }
 .second-section{
   display: flex;
@@ -215,6 +223,12 @@ p{
 }
 .fifth-section-buttons button:nth-child(2){
   background-color: var(--Light-Blue);
+}
+.fifth-section-buttons button:nth-child(1):hover{
+  background-color: var(--Strong-Cyan-light);
+}
+.fifth-section-buttons button:nth-child(2):hover{
+  background-color: var(--Light-Blue-light);
 }
 .footer{
   display: flex;
