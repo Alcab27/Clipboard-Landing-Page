@@ -78,6 +78,7 @@ p{
   border: none;
   border-radius: 20px;
   margin-bottom: 12px;
+  cursor: pointer;
 }
 .first-section-buttons button:nth-child(1){
   background-color: var(--Strong-Cyan);
@@ -207,6 +208,7 @@ p{
   border: none;
   border-radius: 20px;
   margin-bottom: 12px;
+  cursor: pointer;
 }
 .fifth-section-buttons button:nth-child(1){
   background-color: var(--Strong-Cyan);
@@ -238,10 +240,8 @@ p{
   text-decoration: none;
   color: var(--Dark-Grayish-Blue);
 }
-.social-networks{
-  display: flex;
-  align-items: center;
-  margin: 32px 0 20px 24px;
+.first-colummn a:hover, .second-colummn a:hover, .third-colummn a:hover{
+  color: var(--Strong-Cyan);
 }
 .social-networks a svg{
   width: 25px;
@@ -249,4 +249,7 @@ p{
 }
 .icon{
   fill: var(--Dark-Grayish-Blue);
+}
+.icon:hover{
+  fill: var(--Strong-Cyan);
 }
